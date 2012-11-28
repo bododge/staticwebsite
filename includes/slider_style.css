@@ -1,0 +1,69 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+  margin:0 20px 0 0;
+  padding:0;
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+  background:transparent;
+}
+body {
+  -webkit-text-size-adjust:none;
+}
+
+.swipe {
+}
+.swipe li div, .swipe div div div {
+	margin:0px;
+	background:transparent;
+	color:#fff;
+	margin-right:0px;
+}
+
+
+.slidernav {
+	display: block;
+	clear:both;
+	width: 100%;
+position:relative;
+
+	background-color: #007cae;
+	height: 15px;
+	z-index:999;
+	overflow:visible;
+}
+
+
+.slidernav {
+	margin:0px auto;
+	height: 50px;
+	margin-bottom: -70px;
+}
+
+#sliderprev, #slidernext {
+	width:300px;
+	height:30px;
+	line-height:30px;
+	}
+	
+	#sliderprev {position:relative; right:50%; top:-16em; z-index:999; overflow:visible; opacity:.77;}
+
+
+	#slidernext {position:relative; left:41%; top:-16em; z-index:999; overflow:visible; opacity:.74;}
+
+#sliderarea .row {
+    position:relative;
+    left:29px;
+    
+}
+
+#sliderarea #sliderprev, #sliderarea #slidernext {opacity: 0;   
+-webkit-transition: opacity 1s linear;	
+  -moz-transition: opacity 1s linear;	
+  -ms-transition: opacity 1s linear;	
+}
+
+#sliderarea:hover #sliderprev, #sliderarea:hover #slidernext 
+{
+    -webkit-transition: opacity 1.3s;
+opacity:1;
+    }

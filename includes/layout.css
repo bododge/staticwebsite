@@ -1,0 +1,1351 @@
+/* 
+Proferral 2012
+*/
+.hadjust {
+	position: relative;
+	top: -15px;
+}
+.socialbtns {
+	width: 550px;
+}
+
+.headingarea {
+	display:inline-block;
+	float:left;
+	}
+	
+.img_icn {
+width:27%;
+height:auto;
+}
+
+#top_navarea, #sliderarea, #registration, #about, #features, #footer_navarea {width:100%; margin:0 auto;}
+
+
+
+
+/***** Screen 960px *****/
+
+
+/***** Responsive page animations *****/
+
+	 * img, * row, #top_navarea li {
+-webkit-transition: width 1.3s;
+  -moz-transition: width 1.3s;
+  -ms-transition: width 1.3s;	
+	}
+	
+	
+		 #sliderarea .container {
+-webkit-transition: background-color 1.8s;
+  -moz-transition: background-color 1.8s;
+  -ms-transition: background-color 1.8s;	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/***** page centering fix *****/
+
+	
+* row{
+	position:relative;
+	left:34px;
+	
+	}
+	
+	.slidernav .row {
+	margin: 0 auto;
+	text-align:center;
+	margin-bottom:-9px;
+	overflow:visible;
+	z-index:9999;
+}
+
+form p a {
+	color:#3CF;
+	text-decoration:none;
+	outline:0;
+transition-property:color .1s linear 0s; -moz-transition:color .1s linear 0s; -webkit-transition:color .1s linear 0s; -o-transition:color .1s linear 0s; }
+
+#registration form p {
+	float:right;
+	display:inline-block;
+	}
+#regstep input {
+	line-height: 1.7px;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#regstep label {
+    clear: left;
+    float: left;
+    padding: 3px 10px 2px;
+    text-align: right;
+    width: 180px;
+}
+#regstep .textfield, .textarea, .selectlist {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0 0 8px;
+    width: 250px;
+}
+
+
+.regsteps fieldset {
+	margin: 0;
+}
+
+.regsteps input {
+	width:180px;
+	height:25px;
+	}
+.regsteps ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.regsteps li {
+	padding: 10px;
+	display:block;
+	height:40px;
+}
+.regsteps li.last {
+	float: none;
+	clear: both;
+	text-align: left;
+}
+
+.regsteps fieldset legend {
+  font-weight: bold;
+  font-size: 22px;
+  margin:15px 0 0 6px;
+}
+.regsteps label {
+	display:block;
+	cursor: pointer;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+.regsteps #forgot, .regsteps #keepmelogged, .regsteps #loginbutton {height:17px;}
+
+
+.regsteps form .button {
+	float: left;
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color: #07A032;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	font-size:110%;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width: 265px;
+	border:0px;
+	margin-right:26px;
+}
+.regsteps form .button:hover {
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color:#008213;
+}
+
+.regsteps select {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(../img/select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:187px;}
+  
+li.txtarea { width:200px; clear:right; display:block;margin-bottom:60px;}
+  
+li #CheckboxGroup1_0 {
+	float: left;
+	width:20px;
+}
+
+#loginbox {float:right;}
+
+* input {font-size:130%;}
+
+
+
+form .formtext {
+	display: inline;
+	float: left;
+}
+#termsagreement input[type="checkbox"] {
+	float: right;
+}
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right:15px;
+	margin-bottom:105px;
+}
+.top {
+	margin:0 auto;
+	margin-top:30px;
+}
+.base {
+	margin:0 auto;
+	margin-bottom:40px;
+}
+span.example {
+	margin-bottom:5px;
+	padding:5px 0 5px 0;
+	background-color:#eee;
+	text-align:center;
+	width:100%;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Navigation top area */
+
+#topNav ul {
+	margin:30px 0px;
+	text-align:center;
+	position:relative;
+	margin-right: 0px;
+}
+#topNav ul li {
+	font-size:130%;
+	float: right;
+	width: 11%;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-left:-30ppx;
+	padding:0 10px;
+}
+
+#topNav ul li.socialbtns {
+	font-size:130%;
+	width: 47%;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-right:3px;
+	padding:0 10px;
+	position:relative;
+	top:6px;
+	margin-left:64px;
+}
+
+
+
+#topNav ul li.upgrade, #topNav ul li.upgrade a {
+	background: #0099d6;
+	color:white;
+}
+#topNav ul li.upgrade:hover, #topNav ul li.upgrade:hover a {
+	background: #007dab;
+	color:white;
+}
+#topNav ul li.login, #topNav ul li.login a {
+	background-color:#d33e27;
+	color:white;
+	text-decoration:none;
+}
+#topNav ul li.login:hover, #topNav ul li.login:hover a {
+	background-color:#b7190d;
+	color:white;
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+/*
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Registration Area */
+
+#registration form input.textinput {
+	float: left;
+	width: 252px;
+	margin-right: 10px;
+	height: 40px;
+	line-height: 45px;
+	padding-left: 10px;
+	margin-bottom:20px;
+	font-size:120%;
+	color:#666;
+}
+#registration form input.textinput:focus {
+	background-color:#ffffee;
+	color:#000;
+	font-size:135%;
+}
+#registration h1 {
+	color:#d33e27;
+}
+#registration label, #registration checkbox {
+	float:left;
+	line-height:30px;
+	margin-bottom:10px;
+}
+
+/*
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Registration Area 2 */
+
+
+
+
+/*____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Form Button  */
+
+
+#registration form .button {
+	float: right;
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color:#5e1680;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width: 242px;
+	border:0px;
+	margin-right:10px;
+}
+#registration form .button:hover {
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color:#b7190d;
+}
+.testimonialbox .test_head {
+	color: #FFF;
+	background-color: #063;
+	float: left;
+	width: 33%;
+	min-height: 250px;
+}
+.testimonialbox .test_body {
+	clear: right;
+	float: right;
+	min-height: 250px;
+	border: 1px solid #999;
+	width: 76%;
+}
+
+
+
+
+/*
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Button Designs */
+
+
+a.button {
+	background-image:url(../img/btnIcn_arrow.png);
+	background-color:#dd4517;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width:260px;
+}
+a:hover.button {
+	background-image:url(../img/btnIcn_arrow.png);
+	background-color:#b7190d;
+}
+a.linkedin {
+	background-image:url(../img/btnIcn_linkedin.png);
+	background-color:#0386af;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width:260px;
+}
+a:hover.linkedin {
+	background-image:url(../img/btnIcn_linkedin.png);
+	background-color:#016593;
+}
+a.facebook {
+	background-image:url(../img/btnIcn_facebook.png);
+	background-color:#005ea2;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width:260px;
+}
+a:hover.facebook {
+	background-image:url(../img/btnIcn_facebook.png);
+	background-color:#004084;
+}
+
+
+
+
+
+/*
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+button left divider addon  */
+
+.add {
+	text-indent: 15%;
+	display:block;
+	width:80%;
+	float:right;
+	border-left:1px solid white;
+}
+.arrowicn {
+}
+
+
+
+
+
+
+/*_______________________________
+Form Button  */
+
+
+#registration form .button {
+	float: right;
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color: #07A032;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	font-size:110%;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width: 265px;
+	border:0px;
+	margin-right:26px;
+}
+#registration form .button:hover {
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color:#008213;
+}
+.testimonialbox .test_head {
+	color: #FFF;
+	background-color: #063;
+	float: left;
+	width: 33%;
+	min-height: 250px;
+}
+.testimonialbox .test_body {
+	clear: right;
+	float: right;
+	min-height: 250px;
+	border: 1px solid #999;
+	width: 76%;
+}
+
+
+
+
+
+/*_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Typography  */
+
+
+
+
+h1 {
+	font-size:3.9em;
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+p {
+	font-size:130%;
+	line-height:1.6em;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.sectionhead h2 {
+	text-align:center;
+	font-size:370%;
+	line-height: 2.2;
+}
+.sectionhead h3 {
+	text-align:center;
+	font-size:200%;
+	line-height: 1.5;
+}
+#about h3, #features h3 {
+	display: block;
+	color: black;
+	line-height:1.4em;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** Color Boxes -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*****/
+.bgGrey {
+	background: #f3f3f3;
+	border-bottom:1px solid darkgrey;
+}
+.bgBlue, .bgBlue h1, .bgBlue h2 {
+	background: #00a1e0;
+	color:white;
+	line-height:1.2em;
+}
+.bgBlueStroke {
+	border-bottom: #007ea8 1px solid;
+	overflow: visible;
+}
+.bgDarkGrey {
+	background: #ebebeb;
+	border-top:1px solid lightgrey
+}
+.bgDarkGreyb {
+	background: #ebebeb;
+	border:1px solid lightgrey
+}
+
+#feature h3 {
+    line-height:4em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***** Extra margins padding *****/
+.margin_top_5 {
+	margin-top: 5px !important;
+}
+.margin_top_15 {
+	margin-top: 15px !important;
+}
+.margin_top_25 {
+	margin-top: 25px !important;
+}
+.margin_top_30 {
+	margin-top: 30px !important;
+}
+.margin_top_35 {
+	margin-top: 35px !important;
+}
+.margin_top_45 {
+	margin-top: 45px !important;
+}
+.margin_top_60 {
+	margin-top: 60px !important;
+}
+.margin_top_90 {
+	margin-top: 90px !important;
+}
+.margin_top_120 {
+	margin-top: 120px !important;
+}
+.margin_bottom_5 {
+	margin-bottom: 5px !important;
+}
+.margin_bottom_15 {
+	margin-bottom: 15px !important;
+}
+.margin_bottom_25 {
+	margin-bottom: 25px !important;
+}
+.margin_bottom_30 {
+	margin-bottom: 30px !important;
+}
+.margin_bottom_35 {
+	margin-bottom: 35px !important;
+}
+.margin_bottom_45 {
+	margin-bottom: 45px !important;
+}
+.margin_bottom_60 {
+	margin-bottom: 60px !important;
+}
+.margin_bottom_90 {
+	margin-bottom: 90px !important;
+}
+.margin_bottom_120 {
+	margin-bottom: 120px !important;
+}
+.padding_top_15 {
+	padding-top:15px !important;
+}
+.padding_top_30 {
+	padding-top:30px !important;
+}
+.padding_top_45 {
+	padding-top:45px !important;
+}
+.padding_top_60 {
+	padding-top:60px !important;
+}
+.padding_top_90 {
+	padding-top:90px !important;
+}
+.padding_top_120 {
+	padding-top:120px !important;
+}
+.padding_top_130 {
+	padding-top:130px !important;
+}
+.padding_bottom_15 {
+	padding-bottom:15px !important;
+}
+.padding_bottom_30 {
+	padding-bottom:30px !important;
+}
+.padding_bottom_45 {
+	padding-bottom:45px !important;
+}
+.padding_bottom_60 {
+	padding-bottom:60px !important;
+}
+.padding_bottom_90 {
+	padding-bottom:90px !important;
+}
+.padding_bottom_120 {
+	padding-bottom:120px !important;
+}
+.padding_bottom_130 {
+	padding-bottom:130px !important;
+}
+.margin_20 {
+	margin:20px 20px;
+}
+.padding_20 {
+	padding:20px 20px;
+}
+.nomargin {
+	margint:-20px !important;
+}
+
+
+.padding_left_35 {
+	padding-left:35px !important;
+}
+
+
+
+
+/*
+_______________________________
+Footer bottom navigation area */
+
+#bottomNav ul {
+	margin-top:10px;
+	text-align:center;
+	padding-bottom:20px;
+}
+#bottomNav ul li {
+	font-size:130%;
+	float: left;
+	width: 30%;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-right:3px;
+	padding:0 10px;
+	padding-bottom:20px;
+}
+#bottomNav ul li.upgrade {
+	background: #0099d6;
+	color:white;
+}
+#bottomNav ul li.login {
+	background-color:#d33e27;
+	color:white;
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/***** Screen Bigger than 960px ************************************************************************
+******************************************************************************************************
+*********************************************************************************************************
+*********************************************************************************************************
+********************************************************************************************************/
+@media only screen and (min-width:1200px) {
+ .example {
+margin:0;
+padding:0;
+}
+.max-img {
+width:76%;
+height:auto;
+margin-bottom:-5px;
+position:relative;
+right:-125px;
+}
+
+#sliderarea .max-img {
+width:76%;
+height:auto;
+margin-bottom:-5px;
+position:relative;
+right: -141px;
+}
+
+
+ h1 {
+font-size:370%;
+}
+#sliderarea h2 {
+font-size:260%;
+}
+#sliderarea p {
+font-size:150%;
+line-height:1.7em;
+}
+
+
+
+
+#sliderarea .row {
+    position:relative;
+    left:29px;
+    
+}
+
+ background color animation idea
+
+/*.bgBlue, .bgBlue h1, .bgBlue h2 {
+	background: #00a9f1;
+	color:white;
+	line-height:1.2em;
+}
+*/
+/*
+_______________________________
+1200-960 Footer bottom navigation area */
+
+#bottomNav ul {
+margin-top:10px;
+text-align:center;
+padding-bottom:20px;
+}
+ #bottomNav ul li {
+ float: left;
+ width: 10%;
+}
+ .container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+
+
+
+
+
+/*
+_______________________________
+1200-960 Registration Area */
+
+#registration form input.textinput {
+ width: 325px;
+}
+ #registration h1 {
+ color:#d33e27;
+}
+ #registration label, #registration checkbox {
+ float:left;
+ font-family:Arial, Helvetica, San-Serif;
+}
+
+
+
+
+/*_______________________________
+1200 Form Button  */
+
+
+#registration form .button {
+ width: 342px;
+ margin-right:20px;
+}
+ #registration form .button:hover {
+}
+.testimonialbox .test_head {
+ width: 33%;
+}
+.testimonialbox .test_body {
+ width: 76%;
+}
+}
+
+
+
+
+
+
+
+
+
+/***** Tablet (Smaller than 959px) ************************************************************************
+******************************************************************************************************
+*********************************************************************************************************
+*********************************************************************************************************
+********************************************************************************************************/
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+ .example {
+margin:0;
+padding:0;
+}
+.max-img {
+width:100%;
+height:auto;
+}
+ .alignleft {
+ display: inline;
+ float: left;
+ margin-right:15px;
+ margin-bottom:3px;
+}
+ #registration form .button {
+ width: 142px;
+}
+ h1 {
+font-size:300%;
+}
+.sectionhead h2 {
+font-size:270%;
+}
+
+
+#sliderarea .row {
+    position:relative;
+    left:29px;
+    
+}
+
+.regsteps form .button {
+	float: left;
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color: #07A032;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	font-size:110%;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width: 200px;
+	border:0px;
+	margin-right:26px;
+}
+
+#topNav ul {
+    
+    position:relative;
+    left:-40px;
+}
+#topNav ul li {
+	font-size:130%;
+	float: right;
+	width: 11%;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-left:5px;
+	padding:0 10px;
+}
+
+#topNav ul li.socialbtns {
+	font-size:130%;
+	width: 400px;;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-right:3px;
+	padding:0 10px;
+	position:relative;
+	top:6px;
+	margin-left:90px;
+}
+
+
+/*
+_______________________________
+959 and smaller Footer bottom navigation area */
+
+#bottomNav ul {
+margin-top:10px;
+text-align:center;
+padding-bottom:20px;
+}
+ #bottomNav ul li {
+ float: left;
+ width: 28%;
+}
+
+
+
+
+
+
+/*
+_______________________________
+960 Registration Area */
+
+#registration form input.textinput {
+ width: 195px;
+}
+ #registration h1 {
+ color:#d33e27;
+}
+ #registration label, #registration checkbox {
+ float:left;
+}
+
+
+
+
+/*_______________________________
+960 Form Button  */
+
+
+#registration form .button {
+ width: 210px;
+ margin-right:25px;
+}
+ #registration form .button:hover {
+}
+.testimonialbox .test_head {
+ width: 33%;
+}
+.testimonialbox .test_body {
+ width: 76%;
+}
+ .add {
+ text-indent: 9%;
+display:block;
+width:80%;
+}
+
+.sectionhead h2 {
+	text-align:center;
+	font-size:370%;
+	line-height: 1.2;
+}
+
+
+.img_icn {
+width:34%;
+height:auto;
+}
+
+#sliderarea #sliderprev, #sliderarea #slidernext {opacity: .6;
+}
+
+
+}
+
+
+
+
+
+
+
+
+/***** Phone (portrait 300px) ************************************************************************
+******************************************************************************************************
+*********************************************************************************************************
+*********************************************************************************************************
+********************************************************************************************************/
+@media only screen and (max-width: 767px) {
+ .example {
+margin:0;
+padding:0;
+}
+ #registration form .button {
+ float: left;
+}
+ .alignleft {
+ display: inline;
+ float: left;
+ margin-right:15px;
+ margin-bottom:3px;
+}
+ #topNav ul li {
+ float: left;
+ width: 22%;
+}
+ #topNav ul li.login {
+ width:75%;
+}
+ #topNav ul li.upgrade {
+width:75%;
+}
+ #bottomNav ul {
+margin-top:10px;
+text-align:center;
+padding-bottom:20px;
+}
+ #bottomNav ul li {
+ float: left;
+ width: 41%;
+}
+.sectionhead h2 {
+	text-align:center;
+	font-size:370%;
+	line-height: 1.2;
+}
+
+
+#sliderarea .max-img {
+width:100%;
+height:auto;
+margin-bottom:-5px;
+position:relative;
+right:3px;
+}
+
+#sliderarea .row {
+    position:relative;
+    left:2px;
+    
+}
+
+.max-img {
+width:100%;
+height:auto;
+}
+
+.img_icn {
+width:24%;
+height:auto;
+}
+
+mob_b {
+    width:70%;
+    height:auto;
+    
+}
+
+
+.regsteps form .button {
+	float: left;
+	background-image:url(../img/btnIcn_arrow_signup.png);
+	background-color: #07A032;
+	background-repeat: no-repeat;
+	display:block;
+	color:#FFF;
+	font-weight:bold;
+	font-size:110%;
+	height:38px;
+	line-height:38px;
+	text-decoration:none;
+	width: 200px;
+	border:0px;
+	margin-right:26px;
+}
+
+#topNav ul {
+    
+    position:relative;
+    left:-40px;
+}
+#topNav ul li {
+	font-size:130%;
+	float: left;
+	width: 11%;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-left:50px;
+	padding:0 10px;
+	margin-bottom:19px;
+}
+
+#topNav ul li.socialbtns {
+	font-size:130%;
+	width: 95%;
+	line-height: 38px;
+	list-style-type: none;
+	list-style: none;
+	margin-right:3px;
+	padding:0 10px;
+	position:relative;
+	top:6px;
+	left:-14px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+	
+/***** Phone (landscape 420px) ************************************************************************
+******************************************************************************************************
+*********************************************************************************************************
+*********************************************************************************************************
+********************************************************************************************************/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ .example {
+margin:0;
+padding:0;
+}
+ #registration form .button {
+ float: left;
+}
+ .alignleft {
+ display: inline;
+ float: left;
+ margin-right:15px;
+ margin-bottom:3px;
+}
+
+
+.sectionhead h2 {
+	text-align:center;
+	font-size:370%;
+	line-height: 1.2;
+}
+
+
+
+.img_icn {
+width:24%;
+height:auto;
+}
+
+#sliderarea #sliderprev, #sliderarea #slidernext {opacity: .6;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+/***** Retina *****/
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {
+ .example {
+margin:0;
+padding:0;
+}
+ #registration form .button {
+ float: left;
+}
+.alignleft {
+ display: inline;
+ float: left;
+ margin-right:15px;
+ margin-bottom:3px;
+}
+
+.sectionhead h2 {
+	text-align:center;
+	font-size:370%;
+	line-height: 1.2;
+}
+
+#sliderarea #sliderprev, #sliderarea #slidernext {opacity: .6;
+}
+
+
+}
+
+
+
+	
+/*
+
+.socialbucket {opacity: .5;   
+-webkit-transition: opacity 1s linear;	
+  -moz-transition: opacity 1s linear;	
+  -ms-transition: opacity 1s linear;	
+}
+
+body div:hover > .socialbucket {
+-webkit-transition: opacity 1s linear;	
+  -moz-transition: opacity 1s linear;	
+  -ms-transition: opacity 1s linear;	opacity:1;
+    }
+
+
+.socialdiv {
+		text-align:center;
+		margin:0 auto;
+		position:fixed;
+		height:100;
+		bottom:0px;
+		display:block;
+			z-index:4999;
+
+		}
+
+.socialbucket {
+	display:inline-block;
+	height: 60px;
+	width: 90%;
+	position: fixed;
+	bottom: 0px;
+	margin:0 auto;
+	background-color:#f8f8f8;
+	z-index:5000;
+	padding-top:20px;
+	border:1px solid grey;
+}
+
+.socialb {
+	width:400px;
+	margin: 0 auto;
+	}
+
+*/
+/*
+
+#footer_navarea div.row {
+	
+	margin-bottom:60px;}
+
+
+
+.socialdiv {
+display:block;
+position:relative;
+text-align:center;
+height:60px;
+z-index:1000;
+
+		}
+
+.socialbucket {
+display:inline-block;
+margin:0 auto;
+	position:fixed;
+	bottom:0;
+	height:60px;
+
+}
+
+.socialb {
+	display:inline-block;
+	background-color:#f8f8f8;
+	padding:20px;
+	padding-bottom:20px;
+	margin: 0 auto;
+	border:1px solid lightgrey;
+	width: 400px;
+		height:60px;
+
+	}
+*/
+#footer_navarea div.row {
+	
+	margin-bottom:60px;}
+
+
+.socialdiv {
+width:100%;
+display:block;
+text-align:center;
+position:fixed;
+background-color:#f8f8f8;
+z-index:4000;
+bottom:0;
+border-top:1px solid lightgrey;	
+		}
+
+.socialbucket {
+	padding:5px;
+	width:300px;
+	margin:auto;
+
+
+}
